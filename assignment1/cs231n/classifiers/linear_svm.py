@@ -19,7 +19,7 @@ def svm_loss_naive(W, X, y, reg):
     - reg: (float) regularization strength
 
     Returns a tuple of:
-    - loss as single float
+     - loss as single float
     - gradient with respect to weights W; an array of same shape as W
     """
     dW = np.zeros(W.shape)  # initialize the gradient as zero
